@@ -1,5 +1,5 @@
 import { IsInt, IsString, IsUrl, MaxLength } from 'class-validator';
-import { Status } from '../interfaces/pet.interface';
+import { Status } from '../entities/pet.entity';
 
 export class Category {
   @IsInt()
